@@ -1,5 +1,5 @@
 .yoga-container {
-    background: linear-gradient(100deg, #FF8C00, #FFA500);
+    background: linear-gradient(100deg, #E6E7E0, #F2F3ED);
     min-width: 100vw;
     min-height: 100vh;
 }
@@ -13,7 +13,7 @@
     border-width: 5px;
     background-color: rgba(0, 0, 0,0.2);
     box-shadow: 0px 0px 0px 0px;
-    color: white;
+    color: #979185;
 }
 
 .secondary-btn:hover {
@@ -31,7 +31,7 @@
     top: 45%;
 }
 .starting-contdown h1 {
-    color: white;
+    color: #979185;
 }
 .pose-img {
     position: absolute;
@@ -51,7 +51,7 @@
 
 .pose-performance {
     margin: 10px 10px;
-    background-color: white;
+    background-color: #979185;
     border-radius: 8px;
     padding: 10px;
 }
@@ -66,3 +66,32 @@
 #my-canvas {
     transform: rotateY(180deg);
 }
+#logo {
+    margin-bottom: 30px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+  }
+  #logo a {
+    text-decoration: none;
+  }
+  #logo .logo-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+  }
+  #logo .logo-type {
+    display: block;
+    margin-top: 13px;
+    font-weight: 800;
+    color: #5b250b;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  #logo .logo-slogan {
+    display: block;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    color: #a59e90;
+  }

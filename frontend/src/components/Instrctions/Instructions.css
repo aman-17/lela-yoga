@@ -8,7 +8,7 @@
 .instruction {
     margin: 10px;
     letter-spacing: 0.5px;
-    color: white;
+    color: #979185;
     font-weight: 400;
     margin-top: 20px;
 }
@@ -20,7 +20,18 @@
 }
 
 .pose-demo-img {
+    display: inline-block;
     height: 400px;
     aspect-ratio: 1;
     border-radius: 15px;
+    margin-top: 5%;
+}
+@media (max-width:750px) {
+    .pose-demo-img {
+        display: block;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 5%;
+    }
+    
 }

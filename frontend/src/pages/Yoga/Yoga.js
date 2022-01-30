@@ -8,7 +8,6 @@ import { count } from '../../utils/music';
 import Instructions from '../../components/Instrctions/Instructions';
 
 import './Yoga.css'
- 
 import DropDown from '../../components/DropDown/DropDown';
 import { poseImages } from '../../utils/pose_images';
 import { POINTS, keypointConnections } from '../../utils/data';
@@ -263,11 +262,17 @@ function Yoga() {
       </div>
     )
   }
-
   return (
     <div
       className="yoga-container"
     >
+                <div id="logo">
+                    <a href="http://lela-dietician.herokuapp.com">
+                        <div className="logo-icon"><img src="https://i.postimg.cc/wxfykpRf/lelalogo.png" height="80px" width= "62px"/></div>
+                        <div className="logo-type">Lela</div>
+                        <div className="logo-slogan">Shape it up!</div> 
+                    </a> 
+                </div>
       <DropDown
         poseList={poseList}
         currentPose={currentPose}

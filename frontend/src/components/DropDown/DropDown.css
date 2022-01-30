@@ -13,6 +13,7 @@
 .dropdown-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #pose-dropdown-btn:focus {
     background-color: white;
